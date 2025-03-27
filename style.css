@@ -1,0 +1,179 @@
+body {
+
+
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 400px;
+    ;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+}
+.navbar{
+    align-items: center;
+}
+        
+
+
+.navbar__s1 {
+    color: #a435f0;
+    font-size: 30px;
+    
+}
+
+.navbar__s2{
+    width: 60%;
+    padding: 10PX;
+    border: solid black 1px;
+    border-radius: 30px;
+}
+.navbar__s2 input{
+    width: 80%;
+    border: none;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+}
+
+.Categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom:solid black 1px;
+    
+
+}
+.Categories p{
+    background-color: #a435f0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.Sale-image img{
+    width: 100%;
+}
+
+.course-cart{
+    width: 20%;
+}
+
+.course-cart img{
+    width: 100%;
+    height: 50%;
+}
+.Recommended{
+    padding: 10px;
+}
+
+.Recommended__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.course-cart{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+
+
+}
+
+
+
+.topics__title{
+    padding: 10px;
+}
+
+.topics__container{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+
+}
+
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+.popular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footer__one{
+    display: flex;
+    gap: 20px;
+}
+
+.footer__one p{
+    padding: 10px;
+}
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
